@@ -15,48 +15,48 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         let dec = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ 𝑶𝑾𝑵𝑬𝑹 : *${config.BOT_NAME}*
-┃★│ 𝑩𝑨𝑰𝑳𝑬𝒀𝑺 : *Multi Device*
-┃★│ 𝑻𝒀𝑷𝑬 : *NodeJs*
-┃★│ 𝑷𝑳𝑨𝑻𝑭𝑶𝑹𝑴 : *Heroku*
-┃★│ 𝑴𝑶𝑫𝑬 : *[${config.MODE}]*
-┃★│ 𝑷𝑹𝑰𝑭𝑰𝑿 : *[${config.PREFIX}]*
-┃★│ 𝑽𝑬𝑹𝑺𝑰𝑶𝑵 : *v 2.0.0*
+┃★│ 𝐎𝐖𝐍𝐄𝐑 : *${config.BOT_NAME}*
+┃★│ 𝐁𝐀𝐈𝐋𝐄𝐘𝐒 : *Multi Device*
+┃★│ 𝐓𝐘𝐏𝐄 : *NodeJs*
+┃★│ 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌 : *Heroku*
+┃★│ 𝐌𝐎𝐃𝐄 : *[${config.MODE}]*
+┃★│ 𝐏𝐑𝐄𝐅𝐈𝐗 : *[${config.PREFIX}]*
+┃★│ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : *v 2.0.0*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• .ᴀɪᴍᴇɴᴜ
-┃◈┃• .ᴀɴɪᴍɪᴇᴍᴇɴᴜ
-┃◈┃• .ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ
-┃◈┃• .ꜰᴜɴᴍᴇɴᴜ
-┃◈┃• .ᴅʟᴍᴇɴᴜ
-┃◈┃• .ʟɪꜱᴛᴄᴍᴅ
-┃◈┃• .ᴍᴇɪɴᴍᴇɴᴜ
-┃◈┃• .ᴀʟʟᴍᴇɴᴜ
-┃◈┃• .ɢʀᴏᴜᴘᴍᴇɴᴜ
-┃◈┃• .ᴏᴡɴᴇʀᴍᴇɴᴜ
-┃◈┃• .ᴏᴛʜᴇʀᴍᴇɴᴜ
-┃◈┃• .ʀᴇᴘᴏ
-┃◈┃• .ʟᴏɢᴏ<ᴛᴇxᴛ>
-┃◈┃• .ʙᴜɢᴍᴇɴᴜ
-┃◈┃• .ᴀɴᴛɪᴅᴇʟ <ꜰᴏʀ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀɴᴛɪᴅᴇʟᴇᴛᴇ ᴍᴇꜱᴇɢᴇ>
-┃◈└───────────┈⊷
+┃❍╭─────────────·๏
+┃❍┃• .ᴀɪᴍᴇɴᴜ
+┃❍┃• .ᴀɴɪᴍɪᴇᴍᴇɴᴜ
+┃❍┃• .ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ
+┃❍┃• .ꜰᴜɴᴍᴇɴᴜ
+┃❍┃• .ᴅʟᴍᴇɴᴜ
+┃❍┃• .ʟɪꜱᴛᴄᴍᴅ
+┃❍┃• .ᴍᴇɪɴᴍᴇɴᴜ
+┃❍┃• .ᴀʟʟᴍᴇɴᴜ
+┃❍┃• .ɢʀᴏᴜᴘᴍᴇɴᴜ
+┃❍┃• .ᴏᴡɴᴇʀᴍᴇɴᴜ
+┃❍┃• .ᴏᴛʜᴇʀᴍᴇɴᴜ
+┃❍┃• .ʀᴇᴘᴏ
+┃❍┃• .ʟᴏɢᴏ<ᴛᴇxᴛ>
+┃❍┃• .ʙᴜɢᴍᴇɴᴜ
+┃❍┃• .ᴀɴᴛɪᴅᴇʟ 
+┃❍└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.CAPTION}`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363365260614615@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -89,13 +89,13 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *Download Menu* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• facebook
 ┃◈┃• mediafire
 ┃◈┃• tiktok
 ┃◈┃• twitter
-┃◈┃• Insta
+┃◈┃• insta
 ┃◈┃• apk
 ┃◈┃• img
 ┃◈┃• play
@@ -118,15 +118,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363369265614615@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -152,7 +152,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try
        {
-        let dec = `╭━━〔 *Group Menu* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• grouplink
 ┃◈┃• add
@@ -193,15 +193,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120364369260614615@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -227,7 +227,7 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
 
-        let dec = `╭━━〔 *Fun Menu* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐅𝐔𝐍 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• insult
 ┃◈┃• hack
@@ -257,7 +257,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363374870097923@newsletter',
-                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𖤍.¬🐉',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -282,7 +282,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *Other Menu* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• fact
 ┃◈┃• font
@@ -305,15 +305,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363374870097923@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -338,7 +338,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *Main Menu* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ping
 ┃◈┃• alive
@@ -356,15 +356,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363374870097923@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -384,12 +384,12 @@ cmd({
     pattern: "ownermenu",
     desc: "menu the bot",
     category: "menu",
-    react: "🔰",
+    react: "👼🏻",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *Owner Menu* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• owner
 ┃◈┃• menu
@@ -415,15 +415,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363374870097923@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -443,12 +443,12 @@ cmd({
     pattern: "convertmenu",
     desc: "menu the bot",
     category: "menu",
-    react: "🥀",
+    react: "🌀",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *Convert Menu* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐂𝐎𝐍𝐕𝐄𝐑𝐓 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• sticker
 ┃◈┃• sticker2
@@ -464,15 +464,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363374870097923@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -498,7 +498,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-          let dec = `╭━━〔 *Anime Menu* 〕━━┈⊷
+          let dec = `╭━━〔 *𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 
 ┃◈┃• dog
@@ -517,15 +517,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363374870097923@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -551,7 +551,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *Ai Menu* 〕━━┈⊷
+        let dec = `╭━━〔 *𝐀𝐈 𝐌𝐄𝐍𝐔* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ai
 ┃◈┃• gpt
@@ -567,15 +567,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.imgur.com/XM8Vadf.jpeg` },
+                image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363374870097923@newsletter',
+                        newsletterName: '⚘💀𝐋𝚵𝐆𝚵𝚴𝐃𝐒 𝐀ℓι̇ι̇ 𖤍.¬🐉',
                         serverMessageId: 143
                     }
                 }
@@ -589,3 +589,4 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 });
 
+            
