@@ -55,8 +55,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363369260614615@newsletter',
-                        newsletterName: 'AWAIS MD',
+                        newsletterJid: '120363374870097923@newsletter',
+                        newsletterName: 'ALI MD',
                         serverMessageId: 143
                     }
                 }
