@@ -112,7 +112,7 @@ const {
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `**𝐀𝐋𝐈 𝐌𝐃 𝐃𝐄𝐕𝐈𝐂𝐄 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃... 🛰️*
+  let up = `*𝐀𝐋𝐈 𝐌𝐃 𝐃𝐄𝐕𝐈𝐂𝐄 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃... 🛰️*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 *𝐖𝐇𝐀𝐓𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋:*
@@ -123,7 +123,7 @@ https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
  *اِنّـسَـاّئـڈ - [ ː > ⚠️♥ -*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 *𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑:*
-https://wa.me/923003588997*\n\n*PREFIX:* ${prefix}`;
+https://wa.me/923003588997\n\n*PREFIX:* ${prefix}`;
     conn.sendMessage(conn.user.id, { image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` }, caption: up })
   }
   })
@@ -251,17 +251,17 @@ https://wa.me/923003588997*\n\n*PREFIX:* ${prefix}`;
 				}
  //================ownerreact==============
     
- if(senderNumber.includes("923182832887")){
+ if(senderNumber.includes("923002588997")){
   if(isReact) return
   m.react("👑")
   }
   
-  if(senderNumber.includes("923182832887")){
+  if(senderNumber.includes("923003588997")){
   if(isReact) return
   m.react("👑")
   }
   
-  if(senderNumber.includes("923182832887")){
+  if(senderNumber.includes("923003588997")){
   if(isReact) return
   m.react("🦋")
    }
@@ -781,7 +781,7 @@ https://wa.me/923003588997*\n\n*PREFIX:* ${prefix}`;
   }
   
   app.get("/", (req, res) => {
-  res.send("AWAIS MD STARTED ✅");
+  res.send("ALI MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
