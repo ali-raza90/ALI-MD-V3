@@ -1,12 +1,12 @@
 {
-  "name": "AWAIS-MD",
+  "name": "ALI-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By AWAIS",
+  "description": "A WhatsApp Bot Created By ALI",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name AWAIS-MD",
-    "stop": "pm2 stop AWAIS-MD",
-    "restart": "pm2 restart AWAIS-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ALI-MD",
+    "stop": "pm2 stop ALI-MD",
+    "restart": "pm2 restart ALI-MD"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
