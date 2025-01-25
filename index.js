@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923182832887']
+  const ownerNumber = ['923003588997']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -112,8 +112,19 @@ const {
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*YOUR BOT AWAIS MD ACTIVE NOW ENJOY♥️*\n\n*PREFIX:* ${prefix}`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.imgur.com/XM8Vadf.jpeg` }, caption: up })
+  let up = `**𝐀𝐋𝐈 𝐌𝐃 𝐃𝐄𝐕𝐈𝐂𝐄 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃... 🛰️*
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+*𝐖𝐇𝐀𝐓𝐓𝐒𝐀𝐏𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋:*
+https://whatsapp.com/channel/0029VaoRxGmJpe8lgCqT1T2h
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*𝐍ɑ͢ɱꪸ𝛆: 𝐀ℓι̇ι̇ -💀🐍"*
+*– اَلّـمُـشٔـہُـوّر شّریِف٘ ب٘چَہ*
+ *اِنّـسَـاّئـڈ - [ ː > ⚠️♥ -*
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐎𝐖𝐍𝐄𝐑:*
+https://wa.me/923003588997*\n\n*PREFIX:* ${prefix}`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://cdn.ironman.my.id/q/BXTKN.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
